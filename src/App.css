@@ -1,0 +1,25 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+
+.unitsGrid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .unitsGrid {
+  flex-direction: column;
+  }
+}

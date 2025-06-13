@@ -1,0 +1,45 @@
+.unitThumbnail {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.unitLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 400px;
+}
+
+.unitImage {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.unitInfo {
+  padding: 15px;
+}
+
+.unitInfo h4 {
+  margin: 0 0 5px;
+  color: #333;
+}
+
+.unitInfo p {
+  margin: 5px 0;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+ .unitLink {
+
+  width: 200px;
+}
+.unitImage {
+  width: 400px;
+}
+}
