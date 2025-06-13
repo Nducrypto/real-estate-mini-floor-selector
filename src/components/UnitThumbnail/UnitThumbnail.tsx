@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Unit } from "../../data/towers";
-import "./UnitThumbnail.css";
+import "./unitThumbnail.css";
 
 interface UnitThumbnailProps {
   unit: Unit;
